@@ -19,8 +19,6 @@ h1 {
   transition: color 0.3s ease;
 }
 
-
-
 input {
   font-family: "Poppins", sans-serif;
   width: 60%;
@@ -160,18 +158,24 @@ button:hover {
 
 /* Custom style for "Item returned to wishlist" toast */
 .Toastify__toast--return .Toastify__progress-bar {
-  background-color: rgb(255, 238, 0) !important; /* Ensure solid yellow progress bar */
-  background: rgb(255, 238, 0) !important; /* Fallback to yellow */
-  border: none !important; /* Remove any border */
-  box-shadow: none !important; /* Remove any shadow effect */
+  background-color: rgb(255, 238, 0) !important;
+  /* Ensure solid yellow progress bar */
+  background: rgb(255, 238, 0) !important;
+  /* Fallback to yellow */
+  border: none !important;
+  /* Remove any border */
+  box-shadow: none !important;
+  /* Remove any shadow effect */
 
 }
 
 /* Remove rainbow background from toast (if any) */
 .Toastify__toast--return {
   border: none !important;
-  background-color: #fff !important; /* White background for toast */
-  box-shadow: none !important; /* Remove any shadow */
+  background-color: #fff !important;
+  /* White background for toast */
+  box-shadow: none !important;
+  /* Remove any shadow */
 }
 
 
@@ -183,20 +187,24 @@ button:hover {
 }
 
 .store-link:hover {
-  color: #f575b1; /* Blue hover effect for the store link */
+  color: #f575b1;
+  /* Blue hover effect for the store link */
 }
 
 .open-all-links {
   font-size: 1.2rem;
   margin-left: 10px;
-  color: #f575b1; /* Blue color for the icon */
+  color: #f575b1;
+  /* Blue color for the icon */
   cursor: pointer;
   transition: color 0.3s ease, transform 0.2s ease;
 }
 
 .open-all-links:hover {
-  color: #eb599d; /* Darker blue on hover */
-  transform: scale(1.1); /* Slight zoom effect on hover */
+  color: #eb599d;
+  /* Darker blue on hover */
+  transform: scale(1.1);
+  /* Slight zoom effect on hover */
 }
 
 
@@ -246,11 +254,13 @@ button:hover {
   --item-background-color: #1f1f1f;
   --item-border-color: #333;
 }
+
 .toggle-dark-mode {
   position: fixed;
   top: 20px;
   left: 20px;
-  z-index: 9999; /* Ensure it stays on top of everything */
+  z-index: 9999;
+  /* Ensure it stays on top of everything */
   padding: 8px 12px;
   font-size: 1rem;
   background-color: #202020;
